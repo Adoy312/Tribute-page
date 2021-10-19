@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+
+
+body{
+    background-color: #edeff2;
+    margin-bottom: 3%;
+    
+    
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;;
+     
+}
+#image{
+    width: 80%;
+}
+#caption{
+    width: 90%;
+    
+    text-align: center;
+    position: relative;
+    left: 90px;
+    font-weight: 400;
+}
+#title{
+    word-spacing: 0.2rem;
+    font-size: 2.9em;
+    font-weight: 700;
+    
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#img-div{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    
+}
+
+#tribute-info{
+    padding-left: 20%;
+    margin-bottom: 3%;
+    opacity: 0.8;
+    
+    
+    
+    
+}
+
+nav ul {
+    
+    margin: 4%;
+    width: 59%;
+}
+#tat{
+    
+    padding-left: 20%;
+    margin-top: 5%;
+}
+
+nav ul li {
+    
+    margin:20px;
+    
+}
+
+#tribute-info > p{
+    width: 55%;
+    position: relative;
+    left: 60px;
+    margin: 20px;
+}
+
+
+#span{
+    position: relative;
+    left: 60px;
+}
+
+li > span{
+    font-weight: 700;
+}
+
+
+
+footer{
+    margin-left: 16%;
+    margin-bottom: 2%;
+    opacity: 0.7;
+}
+ 
+@media screen and (min-width:270px) {
+
+    
+    #title{
+        font-size: 20px;
+        
+    }
+    #tribute-info{
+        padding: 0;
+    }
+
+    #caption{
+        width: 81%;
+        position: relative;
+        left: 20px;
+    }
+    #tat{
+        font-size: 17px;
+        width: 100%;
+        padding-left: 5%;
+    }
+    nav{
+        
+        padding: 0;
+    }
+    nav ul{
+        width: 80%;
+       
+        
+        
+        padding: 0;
+    }
+    
+    nav ul li {
+        width:100%
+        
+    }
+    #tribute-info > p{
+        width: 96%;
+        position: relative;
+        left: 0;
+        margin: 10px;
+    }
+    #span{
+        position: relative;
+        left: 0px;
+    }
+
+    footer{
+
+        margin: 0;
+        
+    }
+    
+
+    
+    
+}
+@media screen and (min-width:340px){
+    #title{
+        font-size: 31px;
+    }
+    #caption{
+        width: 87%;
+        text-align: justify;
+        position: relative;
+        left: 20px;
+    }
+
+}
+@media screen and (min-width:400px){
+    #title{
+        font-size: 2.3em;
+    }
+
+}
+@media screen and (min-width:500px){
+    #title{
+        font-size: 2.9em;
+    }
+    
+    #caption{
+        margin-left: 8%;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:700px){
+
+    body{
+        font-size: 1.5rem;
+        
+    }
+    nav ul{
+        width: 85%;
+    }
+
+    #tat{
+        font-size: 1.7rem;
+    }
+
+}
+@media screen and (min-width:1000px){
+
+    nav ul {
+    
+        margin-left: 25%;
+        width: 43%;
+    }
+    #tat{
+        
+        padding-left: 30%;
+        margin-top: 5%;
+    }
+    
+    nav ul li {
+        
+        margin:20px;
+        
+    }
+    #tribute-info > p{
+        width: 55%;
+        position: relative;
+        left: 23%;
+        margin: 20px;
+    }
+    
+    
+    #span{
+        position: relative;
+        left: 24%;
+    }
+
+    footer{
+        margin-left: 18%;
+    }
+
+}
